@@ -7,4 +7,20 @@
 }
 body {
    font-family:Lato;  
+   color:#777777;
+}
+
+h2{
+    font-family:Oswald;
+    text-decoration:uppercase;
+    color:#555555;
+    letter-spacing: 4px;
+}
+header {
+    display:flex;
+}
+
+#logo {
+    justify-content: flex-start;
+
 }
