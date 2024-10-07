@@ -112,3 +112,36 @@ justify-content: flex-end;*/
     position:absolute;
   
 }
+#ethos > h1 {
+    text-align:center;
+}
+#ethos{
+    height:600px;
+
+}
+#ethos-parent {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#left-about{
+    flex-flow: column nowrap;
+    flex-basis:33%;
+    display:flex;
+    
+}
+
+#center-about {
+    align-self:center;
+    height:200px;
+    flex-basis:33%;
+    background:url("../img/run-image.png") no-repeat;
+}
+
+#right-about {
+    
+    flex-flow: column nowrap;
+    flex-basis:33%;
+    display:flex;
+
+}
