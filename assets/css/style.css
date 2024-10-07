@@ -29,8 +29,8 @@ header {
 
 
 }
-#logo:hover, #nav>li:hover {
-    text-decoration:underline;
+#nav>li:hover, .active {
+    border-bottom: 1px solid #777777;
 }
 #nav {
     
