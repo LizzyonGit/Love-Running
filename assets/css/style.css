@@ -53,15 +53,24 @@ header a {
 height:600px;
 width:100%;
 background:url("../img/main-image.png") no-repeat center center;
+
 animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
+/*display:flex;
+justify-content: flex-end;*/
+
+
+
+
 }
 /*#my image does not go in the header so I don't need this, no I actially need this because it does overlfow with animation */
 #hero-section {
     height:600px;
     width:100%;
     overflow:hidden;
+    position:relative;
+
 }
 
 @keyframes hero-zoom {
@@ -69,4 +78,37 @@ animation-fill-mode: forwards;
     {transform: scale(1)
     }
     to {transform: scale(1.1)}
+}
+#cover, #cover > h2 {
+    color:#ffffff;
+}
+/* my browser may have a default style that does not let it be 130%, therefore specified in the part below */
+#cover > h3 {
+    font-size:130%;
+}
+  
+#cover {
+    /*align-self:flex-end;
+    flex:0 3 100%;*/
+    background-color: rgba(241, 109, 107, 0.7);
+    
+    
+    font-family:Oswald;
+    text-transform:uppercase;
+    letter-spacing:4px;
+
+    height:200px;
+    width:300px;
+
+    padding-top:40px;
+    padding-left:10px;
+
+    bottom:30px;
+    right:150px;
+
+   /* display:flex;
+    flex-flow:column wrap;
+*/
+    position:absolute; 
+  
 }
