@@ -49,3 +49,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+#hero {
+height:600px;
+width:100%;
+}
