@@ -121,13 +121,17 @@ justify-content: flex-end;*/
 }
 #ethos-parent {
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
+    align-items:center;
 }
 
 #left-about{
-    flex-flow: column nowrap;
+    
     flex-basis:33%;
     display:flex;
+    flex-flow:column;
+    align-items:flex-end;
+    
     
 }
 
@@ -140,8 +144,26 @@ justify-content: flex-end;*/
 
 #right-about {
     
-    flex-flow: column nowrap;
+   
     flex-basis:33%;
-    display:flex;
+    
+   
+}
 
+.left-about-heading, .right-about-heading {
+    width:50%;
+    display:flex;
+    flex-flow: column nowrap;
+    margin-bottom: 50px;
+    
+}
+
+.right-about-heading > p, .right-about-heading > h2 {
+    text-align:end;
+    
+}
+hr {
+    border-top: 1px solid #777777;
+    width:100%;
+    margin: 5px 0;
 }
