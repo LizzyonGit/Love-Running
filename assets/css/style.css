@@ -52,5 +52,5 @@ header a {
 #hero {
 height:600px;
 width:100%;
-background:
+background:url("../img/main-image.png") no-repeat center center;
 }
