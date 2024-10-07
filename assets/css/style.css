@@ -18,9 +18,20 @@ h2{
 }
 header {
     display:flex;
+    align-items: flex-end;
 }
 
 #logo {
     justify-content: flex-start;
 
+}
+#nav {
+    justify-content: flex-end;
+    display: flex;
+    gap: 10px;
+}
+
+#nav > li {
+    list-style:none;
+    
 }
