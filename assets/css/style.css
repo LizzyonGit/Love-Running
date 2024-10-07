@@ -12,26 +12,40 @@ body {
 
 h2{
     font-family:Oswald;
-    text-decoration:uppercase;
+    text-transform:uppercase;
     color:#555555;
     letter-spacing: 4px;
+    font-size:280%;
 }
 header {
     display:flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #logo {
-    justify-content: flex-start;
+    
+    
+
 
 }
+#logo:hover, #nav>li:hover {
+    text-decoration:underline;
+}
 #nav {
-    justify-content: flex-end;
+    
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    font-size:110%;
+    letter-spacing:4px;
+    
 }
 
 #nav > li {
-    list-style:none;
+    list-style: none;
     
+}
+header a {
+    text-decoration: none;
+    color: inherit;
 }
