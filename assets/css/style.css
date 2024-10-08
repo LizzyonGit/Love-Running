@@ -251,6 +251,13 @@ footer i {
         order:2;
     }
     #times{
+        margin-top:5%;
+        height:100%;
+        gap:2px;
+    }
+    #times > div {
+        flex:2 1 40%;/*set this to 50% and they will all be under each other*/
+        padding-top:0;
         height:100%;
     }
 }
