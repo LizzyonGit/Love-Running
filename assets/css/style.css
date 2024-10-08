@@ -245,9 +245,11 @@ footer i {
 @media screen and (max-width:975px ) {
     #left-about, #right-about{
     flex-basis:48%;
-    order:-1;
     align-self:flex-start;  
     }
     
-    
+    #center-about {
+    order:-1;
+    flex-basis:25%;
+    }
 }
