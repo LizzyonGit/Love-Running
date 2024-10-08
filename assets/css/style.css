@@ -247,9 +247,10 @@ footer i {
     flex-basis:48%;
     align-self:flex-start;  
     }
-    
-    #center-about {
-    order:-1;
-    flex-basis:25%;
+    #center-about{
+        order:2;
+    }
+    #times{
+        height:100%;
     }
 }
