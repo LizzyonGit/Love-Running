@@ -118,38 +118,32 @@ justify-content: flex-end;*/
 }
 #ethos{
     height:600px;
-
 }
+
 #ethos-parent {
     display:flex;
     justify-content:space-evenly;
     gap:20px;
     align-items:center;
+    flex-wrap:wrap;
 }
 
 #left-about{
-    
-    flex-basis:33%;
+    flex-basis:30%;
     display:flex;
     flex-flow:column;
     align-items:flex-end;
-    
-    
 }
 
 #center-about {
     align-self:center;
-    flex-basis:33%;
+    flex-basis:30%;
     display:flex;
     justify-content: center;
 }
 
 #right-about {
-    
-   
-    flex-basis:33%;
-    
-   
+    flex-basis:30%;
 }
 
 .left-about-heading, .right-about-heading {
@@ -196,14 +190,15 @@ hr {
     background:url("../img/dublin-city.png") no-repeat;
     background-position: center;
     background-size:cover;
-    width:100%;
     height:300px;
-    overflow:hidden;
+    width:100%;
+    /*overflow:hidden;*/
     color:#fafafa;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    gap:5px;
+    gap:0px;
+    flex-wrap: wrap;
 
 }
 #times > div > h2, #times > div > h2 > i{
@@ -211,12 +206,13 @@ hr {
 }
 #times > div {
     background-color:  rgba(0, 0, 0, 0.6);
-    flex-basis:100%;
-    height:100%;
+    flex-basis:19.5%;
+    height:90%;
     display:flex;
     flex-flow:column nowrap;
     align-items: center;
     padding-top: 30px;
+    /*gap:1px;*/
 
 }
 footer {
@@ -242,4 +238,8 @@ footer i {
 }
 #photos > img{
     width:100%;
+}
+
+@media screen and (max-width: ) {
+    
 }
