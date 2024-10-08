@@ -234,3 +234,12 @@ footer i {
     font-size:160%;
     color:#777777;
 }
+
+#photos {
+    line-height:0px;
+    column-count:3;
+    column-gap: 0px;
+}
+#photos > img{
+    width:100%;
+}
