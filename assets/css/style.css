@@ -290,8 +290,22 @@ footer i {
     header {
         flex-wrap:wrap;
         justify-content:center;
-        margin-bottom:20px;
+        padding-bottom:20px;
+        position:fixed;
+        z-index:99;
+        background-color:#ffffff;
+        box-shadow: 0 2px 2px #777777;
+        width:100%;
     }
+    #hero-section{
+        padding-top:110px;
+    }
+
+    /*Testing to create toggle menu
+    nav {
+        position:absolute;
+        padding: 0 1rem;*/
+    
     
     #times > div {
         flex:2 1 50%;/*set this to 50% and they will all be under each other*/
@@ -303,4 +317,11 @@ footer i {
     #cover {
         left:0;
     }
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+    
 }
