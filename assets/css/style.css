@@ -400,13 +400,15 @@ label{
         margin-top: 47px;
     }
     #signup{
+        height:862px;
         position:relative;
+        background-position:center;
     }
    
     #signup-form{
         max-width:400px;
         position:absolute;
-        left:100px;
+        left:10%;
         top:150px;
         padding:50px;
         margin:0;
