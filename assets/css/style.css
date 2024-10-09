@@ -247,6 +247,9 @@ footer i {
     flex-basis:48%;
     align-self:flex-start;  
     }
+    hr{
+        display:none;
+    }
     #center-about{
         order:2;
     }
@@ -257,6 +260,26 @@ footer i {
     }
     #times > div {
         flex:2 1 40%;/*set this to 50% and they will all be under each other*/
+        padding-top:0;
+        height:100%;
+    }
+}
+
+@media screen and (max-width:693px ) {
+    #left-about, #right-about{
+        flex-basis:100%;
+        align-self:flex-start;  
+        }
+}
+
+@media screen and (max-width:554px){
+    header {
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    
+    #times > div {
+        flex:2 1 50%;/*set this to 50% and they will all be under each other*/
         padding-top:0;
         height:100%;
     }
