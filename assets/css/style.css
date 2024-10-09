@@ -268,7 +268,21 @@ footer i {
 @media screen and (max-width:693px ) {
     #left-about, #right-about{
         flex-basis:100%;
+        align-items:center;
         align-self:flex-start;  
+        }
+
+        #right-about{
+            display: flex;
+            align-items:center;
+            flex-flow:column nowrap;
+        }
+        .left-about-heading, .right-about-heading{
+            width:90%;
+            text-align:center;
+        }
+        .right-about-heading > p, .right-about-heading > h2{
+            text-align: center;
         }
 }
 
@@ -276,11 +290,17 @@ footer i {
     header {
         flex-wrap:wrap;
         justify-content:center;
+        margin-bottom:20px;
     }
     
     #times > div {
         flex:2 1 50%;/*set this to 50% and they will all be under each other*/
         padding-top:0;
         height:100%;
+    }
+}
+@media screen and (max-width:469px ) {
+    #cover {
+        left:0;
     }
 }
