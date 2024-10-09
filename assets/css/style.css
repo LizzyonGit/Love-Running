@@ -402,7 +402,7 @@ label{
         /*margin-top: 47px;*/
     }
     #signup{
-       /* height:100%;*/
+        min-height:700px;
         position:relative;
         background-position:center;
     }
@@ -411,7 +411,7 @@ label{
         max-width:400px;
         position:absolute;
         left:10%;
-       /* top:150px;*/
+        top:10%;
         padding:50px;
         margin:0;
 
