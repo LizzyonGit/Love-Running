@@ -325,3 +325,26 @@ footer i {
     }
     
 }
+
+main {
+    display: flex;
+    flex-flow: column;
+}
+#signup {
+    background-image:url("../img/signup-image.webp");
+    background-position: 75%;
+    background-size: cover;
+    flex-grow:1;
+    padding-top:107px;
+    
+
+}
+#signup-form{
+    color:#ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width:75%;
+
+}
+#signup-form h2{
+    color:#ffffff;
+}
