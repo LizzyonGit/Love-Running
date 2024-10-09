@@ -338,7 +338,7 @@ main {
     flex-grow:1;
     flex-basis:100%;
     display:flex;
-    /*padding: 20px 10% 0 10%;*/
+    padding: 20px 10% 0 10%;
     
 
 }
@@ -405,6 +405,7 @@ label{
         min-height:700px;
         position:relative;
         background-position:center;
+        padding:0;
     }
    
     #signup-form{
